@@ -9,12 +9,12 @@ import { Menu, Search, X } from "lucide-react"
 import { useState } from "react"
 
 const navLinks = [
+  { name: "Copy Trade", href: "/" },
   { name: "Meme", href: "/meme" },
-  { name: "New pair", href: "/new-pair" },
-  { name: "Trending", href: "/trending" },
-  { name: "CopyTrade", href: "/copy-trade" },
-  { name: "Holding", href: "/holding" },
-  { name: "Follow", href: "/follow" },
+  { name: "News", href: "/news" },
+  { name: "Coins", href: "/coins" },
+  
+  
 ]
 
 export function Header() {

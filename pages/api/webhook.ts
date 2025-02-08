@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { TelegramService } from '@/lib/telegram-service';
-import { TELEGRAM_TOKEN } from '@/lib/telegram-config';
+
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   // Only allow POST requests

@@ -10,11 +10,7 @@ const networks = [
     name: "Solana",
     icon: "/solana.png"
   },
-  {
-    id: "eth",
-    name: "Ethereum",
-    icon: "/ethereum.png"
-  }
+ 
 ]
 
 export function NetworkSelect() {
